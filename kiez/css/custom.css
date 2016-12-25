@@ -1,0 +1,65 @@
+.footer-text {
+  color: #cccccc;
+}
+
+.logo {
+  background:url('../img/logo.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+background-repeat: no-repeat;
+background-size: 26px 698px;
+background-position: 0 -13px;
+display: block;
+height: 24px;
+outline: none;
+overflow: hidden;
+text-indent: -999px;
+white-space: nowrap;
+width: 24px;
+}
+
+.copy-left { display: inline-block; text-align: right; margin: 0px; -moz-transform: scaleX(-1); -o-transform: scaleX(-1); -webkit-transform: scaleX(-1); transform: scaleX(-1); filter: FlipH; -ms-filter: “FlipH”; }
+
+.sgnbtn {
+  background-color: #9999cc;
+  border: none;
+  font-size: 12px; color: white;
+  width: 33%;
+}
+
+.trinput {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid #333333;
+}
+input:-moz-placeholder,
+   textarea:-moz-placeholder {
+     color: #333333 !important;
+     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+     font-size: 12px;
+   }
+   input::-moz-placeholder,
+   textarea::-moz-placeholder {
+     color: #333333 !important;
+     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+     font-size: 12px;
+   }
+   input:-ms-input-placeholder,
+   textarea:-ms-input-placeholder {
+     color: #333333 !important;
+     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+     font-size: 12px;
+   }
+   input::-webkit-input-placeholder,
+   textarea::-webkit-input-placeholder {
+     color: #333333 !important;
+     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+     font-size: 12px;
+   }
+
+   #bootstrap-overrides input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus,input[type="number"]:focus, input[type="url"]:focus, textarea:focus{
+     border-color: #333333;
+     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 10px rgba(126, 239, 104, 0.8);
+     outline: 0 none;
+   }
